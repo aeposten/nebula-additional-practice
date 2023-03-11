@@ -16,19 +16,11 @@ New York, NY
 18062 
 */
 
-const fName = "Abdel";
-const lName = "Vorbe";
-const houseNum = 50;
-const street = "barber rd";
-const city = "New York";
-const state = "NY";
-const zip = 66650;
-
 const address = `${fName} ${lName} 
 ${houseNum}, ${street}
 ${city}, ${state}
 ${zip}`;
 
-console.log(address);
+console.log(typeof address);
 
-export { fName, lName, houseNum, street, city, state, zip };
+export { fName, lName, houseNum, street, city, state, zip, address };
