@@ -35,8 +35,6 @@ const remainder = 26 % 3;
 
 // Answer in plain text, what is modulo especially useful for?
 
-
-
 // Do not edit below this line
 export {
   num1,
