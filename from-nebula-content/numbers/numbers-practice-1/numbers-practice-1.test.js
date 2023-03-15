@@ -19,25 +19,25 @@ import {
   remainder,
 } from "./numbers-practice-1";
 
-describe("num1", () => {
+describe(num1, () => {
   it("should be data type number", () => {
     expect(typeof num1).toBe("number");
   });
 });
 
-describe("a", () => {
+describe(a, () => {
   it("should be data type number", () => {
     expect(typeof a).toBe("number");
   });
 });
 
-describe("b", () => {
+describe(b, () => {
   it("should be data type number", () => {
     expect(typeof a).toBe("number");
   });
 });
 
-describe("sum", () => {
+describe(sum, () => {
   it("should be data type number", () => {
     expect(typeof sum).toBe("number");
   });
@@ -47,25 +47,25 @@ describe("sum", () => {
   });
 });
 
-describe("myVar1", () => {
+describe(myVar1, () => {
   it("should be data type number", () => {
     expect(typeof myVar1).toBe("number");
   });
 });
 
-describe("myVar2", () => {
+describe(myVar2, () => {
   it("should be data type number", () => {
     expect(typeof myVar1).toBe("number");
   });
 });
 
-describe("myVar3", () => {
+describe(myVar3, () => {
   it("should be data type number", () => {
     expect(typeof myVar1).toBe("number");
   });
 });
 
-describe("difference", () => {
+describe(difference, () => {
   it("should be data type number", () => {
     expect(typeof difference).toBe("number");
   });
@@ -75,7 +75,7 @@ describe("difference", () => {
   });
 });
 
-describe("even1", () => {
+describe(even1, () => {
   it("should be data type number", () => {
     expect(typeof even1).toBe("number");
   });
@@ -85,7 +85,7 @@ describe("even1", () => {
   });
 });
 
-describe("even2", () => {
+describe(even2, () => {
   it("should be data type number", () => {
     expect(typeof even2).toBe("number");
   });
@@ -95,7 +95,7 @@ describe("even2", () => {
   });
 });
 
-describe("divided", () => {
+describe(divided, () => {
   it("should be data type number", () => {
     expect(typeof divided).toBe("number");
   });
@@ -105,7 +105,7 @@ describe("divided", () => {
   });
 });
 
-describe("odd1", () => {
+describe(odd1, () => {
   it("should be data type number", () => {
     expect(typeof odd1).toBe("number");
   });
@@ -115,7 +115,7 @@ describe("odd1", () => {
   });
 });
 
-describe("odd2", () => {
+describe(odd2, () => {
   it("should be data type number", () => {
     expect(typeof odd2).toBe("number");
   });
@@ -125,7 +125,7 @@ describe("odd2", () => {
   });
 });
 
-describe("multiplied", () => {
+describe(multiplied, () => {
   it("should be data type number", () => {
     expect(typeof multiplied).toBe("number");
   });
@@ -135,13 +135,13 @@ describe("multiplied", () => {
   });
 });
 
-describe("divide3", () => {
+describe(divide3, () => {
   it("should be data type number", () => {
     expect(typeof divide3).toBe("number");
   });
 });
 
-describe("remainder", () => {
+describe(remainder, () => {
   it("should be data type number", () => {
     expect(typeof remainder).toBe("number");
   });
