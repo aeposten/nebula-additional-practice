@@ -17,7 +17,9 @@ Whereas a statically-typed language similar to HTML would have minimal input/out
 
 You received partial credit, for statically typed languages the variable types have already been defined and are therefore  known at compile time, vs dynamically typed languages where the interpreter assigns the variable types at runtime.
 
-Here is a good resource to learn more: [MDN: Dynamic Typing](https://developer.mozilla.org/en-US/docs/Glossary/Dynamic_typing)
+Here is a good resource to learn more: 
+
+[MDN: Dynamic Typing](https://developer.mozilla.org/en-US/docs/Glossary/Dynamic_typing)
 
 [MDN: Static Typing](https://developer.mozilla.org/en-US/docs/Glossary/Static_typing)
 

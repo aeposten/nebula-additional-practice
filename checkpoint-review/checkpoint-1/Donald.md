@@ -1,4 +1,4 @@
-##3.What is the difference between using let, var, and,const?
+## 3.What is the difference between using let, var, and,const?
 
 Your answer:
 const = you cant change
@@ -12,14 +12,14 @@ Here are some resources with more information:
 
 [freeCodeCamp: Var, Let, and Const – What's the Difference](https://www.freecodecamp.org/news/var-let-and-const-whats-the-difference/)
 
-##5. Explain the difference between null, undefined, and not defined
+## 5. Explain the difference between null, undefined, and not defined
 
 You answered:
 null indicates there is no value , undefined has a value but isn't connect to a variable , were not defined tells you the variable does not exist.
 
 You received partial credit, you needed to mention that null is meant to act as a placeholder, and not defined is an error thrown by JavaScript.
 
-##6. Why would you give a variable the value of null?
+## 6. Why would you give a variable the value of null?
 
 Your answer:
 you would do this when the value is unknown
@@ -31,7 +31,7 @@ Here are some resources with more information:
 
 [An Essential Guide to JavaScript Null](https://www.javascripttutorial.net/object/javascript-null/)
 
-##8.In your own words, what does it mean to be a dynamically typed language?
+## 8.In your own words, what does it mean to be a dynamically typed language?
 
 Your answer:
 type of language that try's to guess what your saying as you type
@@ -44,7 +44,7 @@ Here is a good resource to learn more: [https://developer.mozilla.org/en-US/docs
 
 [https://medium.com/android-news/magic-lies-here-statically-typed-vs-dynamically-typed-languages-d151c7f95e2b](https://medium.com/android-news/magic-lies-here-statically-typed-vs-dynamically-typed-languages-d151c7f95e2b)
 
-##11.How do you check an output in the terminal?
+## 11.How do you check an output in the terminal?
 
 Your answer: node - then the name of the file you check
 

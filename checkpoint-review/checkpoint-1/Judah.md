@@ -1,4 +1,4 @@
-##2.Write three different variables with different data type
+## 2.Write three different variables with different data type
 
 Your Answer:
 (Number) let num1 = 10

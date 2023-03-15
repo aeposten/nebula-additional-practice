@@ -1,4 +1,4 @@
-##3. What is the difference between using let, var, and const?
+## 3. What is the difference between using let, var, and const?
 
 Your answer:
 Var is mutuable and can be changed
@@ -12,7 +12,7 @@ Here are some resources with more information:
 
 [freeCodeCamp: Var, Let, and Const – What's the Difference](https://www.freecodecamp.org/news/var-let-and-const-whats-the-difference/)
 
-##4. What is the difference between primitive and non-primitive data?
+## 4. What is the difference between primitive and non-primitive data?
 
 Your answer:
 Primitive is already defined non primitive is created or made.
@@ -24,7 +24,7 @@ Here are some resources with more information:
 
 [Primitive and Non-Primitive Data Types in Javascript](https://dev.to/js_catch/02-primitive-and-non-primitive-data-types-in-javascript-2dhd)
 
-##5. Explain the difference between null, undefined, and not defined
+## 5. Explain the difference between null, undefined, and not defined
 
 Your answer:
 Undefined there’s no value assigned to the variable
@@ -36,7 +36,7 @@ You received partial credit, you needed to mention that null is meant to act as 
 Here are some resources with more information:
 [Difference between null, undefined and not defined in javascript](https://medium.com/technoetics/difference-between-null-undefined-and-not-defined-in-javascript-3a52a62894b)
 
-#8. In your own words, what does it mean to be a dynamically typed language?
+## 8. In your own words, what does it mean to be a dynamically typed language?
 
 Your answer:
 I can assign and create what I want to a variable
@@ -49,7 +49,7 @@ You received partial credit, for statically typed languages the variable types h
 
 [Magic lies here - Statically vs Dynamically Typed Languages](https://medium.com/android-news/magic-lies-here-statically-typed-vs-dynamically-typed-languages-d151c7f95e2b)
 
-##11.How do you check an output in the terminal?
+## 11.How do you check an output in the terminal?
 
 Your answer: 
 node fileName

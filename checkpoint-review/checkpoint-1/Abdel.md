@@ -1,4 +1,4 @@
-##2. What is the difference between using let, var, and const?
+## 2. What is the difference between using let, var, and const?
 
 Your answer:
 Let is used for variable declaration, Variables declared with var are used for immediate function.
@@ -10,7 +10,7 @@ Here are some resources with more information:
 
 [freeCodeCamp: Var, Let, and Const – What's the Difference](https://www.freecodecamp.org/news/var-let-and-const-whats-the-difference/)
 
-##5. Explain the difference between null, undefined, and not defined
+## 5. Explain the difference between null, undefined, and not defined
 
 Your answer:
 Null represents a non-existent value, Undefined is declaring a variable without assigning a value to it, Not defined is a variable that is not declared.
@@ -20,7 +20,7 @@ You received partial credit. Null is also meant to be used as a placeholder, and
 Here are some resources with more information:
 [Difference between null, undefined and not defined in javascript](https://medium.com/technoetics/difference-between-null-undefined-and-not-defined-in-javascript-3a52a62894b)
 
-##6. Why would you give a variable the value of null?
+## 6. Why would you give a variable the value of null?
 
 Your answer:
 Because the variable has an empty value.
@@ -32,7 +32,7 @@ Here are some resources with more information:
 
 [An Essential Guide to JavaScript Null](https://www.javascripttutorial.net/object/javascript-null/)
 
-##7. In your own words, what is syntax?
+## 7. In your own words, what is syntax?
 
 Your answer:
 Syntax is the programming language used in JavaScript.
@@ -40,6 +40,7 @@ Syntax is the programming language used in JavaScript.
 Syntax refers to the rules and commands used by a given programming language
 
 Here are some resources with more information:
+
 [Woz U: What is Stntax in Computer Programming](https://woz-u.com/blog/what-is-syntax-in-computer-programming/)
 
 
