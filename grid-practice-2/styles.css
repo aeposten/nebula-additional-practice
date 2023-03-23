@@ -1,0 +1,40 @@
+:root {
+    --blue: #084ba5;
+    --green: #166d2e;
+    --red: #d62828;
+}
+
+*{
+    margin: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--blue);
+}
+
+.grid-container {
+    width: 45vw;
+    height: 45vw;
+    display: grid;
+    place-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1ft 1fr 1fr;
+    border: 0.25em solid gold;
+}
+
+.grid-item {
+    width: 10vw;
+    height: 10vw;
+    order: 5;
+    background-color: var(--red);
+}
+
+.grid-item:last-child {
+    background-color: var(--green);
+    order: 4;
+}

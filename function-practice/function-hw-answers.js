@@ -15,17 +15,15 @@ function addOne(array) {
 // Example string = "happy birthday", letter = "q" should return false
 
 function strContainsLetter(string, letter) {
-  let containsLetter = false;
   for (let i = 0; i < string.length; i++) {
     if (string[i] === letter) {
-      containsLetter = true;
-      break;
+      return true;
     }
   }
-  return containsLetter;
+  return false;
 }
 
-// console.log(strContainsLetter("happy birthday", "q"))
+console.log(strContainsLetter("happy birthday", "a"))
 
 // 3. Write a function that takes in an array of full names (formatted "firstName lastName"), and returns a new array containing only first names.
 // Example array = ["Tom Smith", "Bob Jones", "Bill Williams"] returns ["Tom", "Bob", "Bill"]
