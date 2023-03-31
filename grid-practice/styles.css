@@ -1,29 +1,75 @@
-.container > div {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 2em;
-    color: #ffeead;
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Tilt+Neon&display=swap");
+
+/* 
+font-family: 'Roboto', sans-serif;
+font-family: 'Tilt Neon', cursive;
+*/
+
+:root {
+  --blue: #003049;
+  --red: #d62828;
+  --orange: #f77f00;
+  --yellow: #ffbe0b;
+  --mellon: #eae2b7;
 }
 
-html, body {
-  background-color: #ffeead;
-  margin: 10px;
+html {
+  height: 100%;
 }
 
-.container > div:nth-child(1n) {
-  background-color: #96ceb4;	
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 3rem;
+  text-align: center;
+  background-color: var(--mellon);
+  color: var(--mellon);
 }
 
-.container > div:nth-child(3n) {
-  background-color: #88d8b0;
+.container {
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  display: grid;
+  grid-gap: 0.125em;
+  grid-template-rows: repeat(4, 1fr);
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-areas:
+    "main main main header"
+    "main main main header"
+    "navigation footer footer footer"
+    "navigation footer footer footer";
 }
 
-.container > div:nth-child(2n) {
-      background-color: #ff6f69;
+.item {
+  padding: 0.25em;
 }
 
-.container > div:nth-child(4n) {
-      background-color: #ffcc5c;
+.header {
+  grid-area: header;
+  background-color: var(--blue);
+}
+img {
+  height: auto;
+  width: auto;
+}
+.navigation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  grid-area: navigation;
+  background-color: var(--red);
 }
 
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-area: main;
+  background-color: var(--orange);
+}
+
+.footer {
+  grid-area: footer;
+  background-color: var(--yellow);
+}

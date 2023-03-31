@@ -1,40 +1,41 @@
+
 :root {
-    --blue: #084ba5;
-    --green: #166d2e;
+    --blue: #003049;
     --red: #d62828;
-}
+    --orange: #f77f00;
+    --yellow: #ffbe0b;
+    --mellon: #eae2b7;
+  }
 
-*{
-    margin: 0;
-}
-
-body {
+  body {
     width: 100vw;
     height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     background-color: var(--blue);
-}
+  }
 
-.grid-container {
-    width: 45vw;
-    height: 45vw;
+  .grid-container {
+    width: 600px;
+    height: 600px;
     display: grid;
-    place-items: center;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1ft 1fr 1fr;
-    border: 0.25em solid gold;
-}
-
-.grid-item {
-    width: 10vw;
-    height: 10vw;
-    order: 5;
     background-color: var(--red);
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 300px 300px;
+    place-content: center;
+    grid-template-areas: 
+    "one one one"
+    "two two two";
 }
+ 
+  .grid-item-1 {
+    height: 80px;
+    width: 80px;
+    background-color: var(--yellow);
+    grid-area: "one";
+  }
 
-.grid-item:last-child {
-    background-color: var(--green);
-    order: 4;
-}
+  .grid-item-2 {
+    width: 80px;
+    height: 80px;
+    background-color: var(--orange);
+    grid-area: "two";
+  }
