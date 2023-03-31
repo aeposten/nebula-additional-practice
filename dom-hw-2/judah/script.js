@@ -1,33 +1,78 @@
-// Connect your JS file to your HTML file
+// COUNTER EXERCISE
 
+// Select the body element from index.html
+const body = document.querySelector('body');
 
-// Select the <h1> element using querySelector() and log it to the console
-const h1 = document.querySelector('h1');
-console.log(h1.innerText);
+// Set an attribute of 'style' to the body tag and add a background color of anything other than white
+body.style.backgroundColor = "#669BBC";
 
-// Select the <p> element using querySelector() and log it to the console
-const p = document.querySelector('p');
-console.log(p.innerText);
+/* -------------------------------------------------------------------------- */
 
-// Select the <ul> element using getElementById() and log it to the console
-const ul = document.getElementById('list');
-console.log(ul.innerText);
+// Create an h1 element
+const h1 = document.createElement("h1");
 
-// Select the first <li> element using querySelector() and log it to the console
-const li1 = document.querySelector("li");
-console.log(li1);
+// Append a new h1 element to the body element as a child
+document.body.appendChild(h1);
 
-// Select the second <li> element using querySelectorAll() and array indexing, and log it to the console
-const li2 = document.querySelectorAll("li");
-console.log(li2[1].innerText);
+// Add text to the h1 element
+h1.innerText = "default";
 
-// Select all <li> elements using getElementsByClassName() and log them to the console
-//Incorrect but unsure what i'm missing, can only either get this or undefined
- const liAll = document.getElementsByClassName('item');
- console.log(liAll);
+// Assign the background color of this element to something unique
+h1.style.backgroundColor = "#003049";
 
-// Select the <ul> and create a new <li> and add it to the list
-const item4 = document.createElement('li');
-item4.innerText = 'Item 4';
-document.getElementById('list').appendChild(item4);
-console.log(ul.innerText);
+// Set a new style attribute to the h1 element
+h1.style.color = "white";
+h1.style.borderRadius = "25px";
+
+// Add font size to the h1Element
+h1.style.fontSize = "75px";
+
+// Set the default text to the number zero
+h1.innerText = 0;
+
+/* -------------------------------------------------------------------------- */
+
+// Create a button element to increment the h1 text
+const addButton = document.createElement("button");
+
+// Append the button element to the body element
+document.body.appendChild(addButton);
+
+// Add text to the button that says "Add One"
+addButton.innerText = "Add One";
+
+// Add a class attribute to button
+addButton.classList.add("addButton");
+
+/* -------------------------------------------------------------------------- */
+
+// Create another button element to decrement the h1 text
+const minusButton = document.createElement("button");
+
+// Add the button element to the body element
+document.body.appendChild(minusButton);
+
+// Add text to the button element that says "Subtract One"
+minusButton.innerText = "Subtract One";
+
+// Add a class attribute of style to the button element
+minusButton.classList.add("style");
+
+/* -------------------------------------------------------------------------- */
+// INCREMENT BUTTON FUNTION
+// Create functionality that, when you click this button it increases the h1 value
+
+document.addEventListener("click", (event) => {
+    if (event.target === addButton){
+        h1.innerText++;
+    } 
+})
+
+/* -------------------------------------------------------------------------- */
+// DECREMENT BUTTON FUNCTION
+// Create functionality that, when you click this button it decreases the h1 value
+document.addEventListener("click", (event) => {
+    if (event.target === minusButton){
+        h1.innerText--;
+    } 
+})

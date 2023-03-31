@@ -1,29 +1,76 @@
-// Connect your JS file to your HTML file
+// COUNTER EXERCISE
+
+// Select the body element from index.html
+const body = document.querySelector("body")
+console.log(body)
+
+// Set an attribute of 'style' to the body tag and add a background color of anything other than white
+body.style.fontSize = '200%'
+body.style.backgroundColor = 'orange'
+/* -------------------------------------------------------------------------- */
+
+// Create an h1 element
+const h1 = document.createElement('h1')
+console.log(h1)
+
+// Append a new h1 element to the body element as a child
+const newH1 = document.createElement('h1')
+h1.append(newH1)
+console.log(newH1)
+
+// Add text to the h1 element 
+h1.textContent = 'My name is Juliet!'
+document.body.append(h1)
+// newH1.textContent = 'I am 23yrs old!'
+// document.body.append(newH1)
+
+// Assign the background color of this element to something unique
+h1.style.backgroundColor = 'brown'
+
+//Set a new style attribute to the h1 element
+h1.style.fontFamily = 'cursive'
+
+// Add font size to the h1Element
+h1.style.fontSize = '300%'
+
+// Set the default text to the number zero
+h1.textContent = 0;
+
+/* -------------------------------------------------------------------------- */
+
+// Create a button element to increment the h1 text
+const button = document.createElement('button')
+console.log(button)
+
+// Append the button element to the body element
+document.body.append(button)
+
+// Add text to the button that says "Add One"
+button.textContent = 'Add One'
+
+// Add a class attribute to button
+button.style.backgroundColor = 'green'
+/* -------------------------------------------------------------------------- */
+
+// Create another button element to decrement the h1 text
+//subtract
+const button1 = document.createElement('button')
+console.log(button1)
+
+// Add the button element to the body element
+document.body.append(button1)
+
+// Add text to the button element that says "Subtract One"
+button1.textContent = 'Subtract One'
+
+// Add a class attribute of style to the button element
+button1.style.backgroundColor = 'yellow'
+/* -------------------------------------------------------------------------- */
+// INCREMENT BUTTON FUNTION
+// Create functionality that, when you click this button it increases the h1 value
+h1 += 1
 
 
-// Select the <h1> element using querySelector() and log it to the console
-const holdH1 = document.querySelector("h1");
-console.log(holdH1)
-
-// Select the <p> element using querySelector() and log it to the console
-const p = document.querySelector("p");
-console.log(p)
-// Select the <ul> element using getElementById() and log it to the console
-
-
-// Select the first <li> element using querySelector() and log it to the console
-const lis = document.querySelector('li')
-console.log(lis)
-
-
-// Select the second <li> element using querySelectorAll() and array indexing, and log it to the console
-const li1 = document.querySelectorAll('li')
-console.log(lis)
-console.log(lis[2])
-
-// Select all <li> elements using getElementsByClassName() and log them to the console
-const li2 = document.getElementsByClassName('list') 
-console.log(li2)
-
-
-// Select the <ul> and create a new <li> and add it to the list
+/* -------------------------------------------------------------------------- */
+// DECREMENT BUTTON FUNCTION 
+// Create functionality that, when you click this button it decreases the h1 value
